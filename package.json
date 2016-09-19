@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "trash docs/sites/demo",
     "clean-downloaded": "trash node_modules/",
-    "copy-sites-demo-css": "cp node_modules/metrochartjs/dist/metrochart.css node_modules/metrochartjs/dist/metrochart.min.css docs/sites/demo/",
+    "copy-sites-demo-css": "cp src/*.css node_modules/metrochartjs/dist/metrochart.css node_modules/metrochartjs/dist/metrochart.min.css docs/sites/demo/",
     "copy-sites-demo-deps": "npm run copy-sites-demo-js && npm run copy-sites-demo-css && npm run copy-sites-demo-html && npm run copy-sites-data",
     "copy-sites-demo-html": "cp src/*.html docs/sites/demo/",
     "copy-sites-demo-js": "cp src/*.js node_modules/d3/d3.min.js node_modules/metrochartjs/dist/metrochart.min.js docs/sites/demo/",
