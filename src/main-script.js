@@ -31,7 +31,7 @@ switch (showDataSet) {
                 ],
                 stationShapeRadius: 5
             };
-            chart = new metrochart.MetroChart("#metrochart", window.location.href + "/data/metrolines.json", options);
+            chart = new metrochart.MetroChart("metrochart", window.location.href + "/data/metrolines.json", options);
         }
         break;
     case "tintin": {
@@ -39,6 +39,6 @@ switch (showDataSet) {
                 charge: 0,
                 linkStrength: 0.0
             };
-            chart = new metrochart.MetroChart("#metrochart", window.location.href + "/data/tintin-the-black-island.json", options);
+            chart = new metrochart.MetroChart("metrochart", window.location.href + "/data/tintin-the-black-island.json", options);
         }
 }
